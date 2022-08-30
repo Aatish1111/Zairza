@@ -1,0 +1,36 @@
+.container > img {
+  height: 243px;
+  width: 100%;
+}
+
+.centered {
+  position: absolute;
+  height: 144px;
+  align-items: center;
+  left: 119px;
+  top: 50px;
+}
+
+.centered h1 {
+  font-family: sans-serif;
+  justify-content: center;
+  align-items: center;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 60px;
+  line-height: 72px;
+  letter-spacing: -0.02em;
+  color: #ffffff;
+}
+
+
+@media (max-width:500px){
+  .container > img {
+    width: fit-content;
+    /* width: 100%; */
+  }
+
+  .centered h1 {
+    font-size: 30px;
+  }
+}
